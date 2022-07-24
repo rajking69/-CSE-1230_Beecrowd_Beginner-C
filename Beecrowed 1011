@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include <math.h>
+#define Pi 3.14159
+int main()
+{
+    double A,R;
+    scanf("%lf",&R);
+    A=(4.0/3)*Pi*pow(R,3);
+    printf("VOLUME = %.3lf\n",A);
+    return 0;
+}
