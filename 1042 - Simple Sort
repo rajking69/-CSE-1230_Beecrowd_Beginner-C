@@ -1,0 +1,30 @@
+#include<stdio.h>
+int main()
+{
+    int min,mid,max,a,b,c,temp;
+    scanf("%d %d %d",&min,&mid,&max);
+    a=min;
+    b=mid;
+    c=max;
+    if(a>b)
+    {
+        temp=a;
+        a=b;
+        b=temp;
+    }
+    if(b>c)
+    {
+        temp=b;
+        b=c;
+        c=temp;
+    }
+    if(a>b)
+    {
+        temp=a;
+        a=b;
+        b=temp;
+    }
+    printf("%d\n%d\n%d\n\n",a,b,c);
+    printf("%d\n%d\n%d\n",min,mid,max);
+    return 0;
+}
