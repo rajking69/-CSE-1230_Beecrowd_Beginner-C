@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+    double a,b,c,pri,tra;
+    scanf("%lf %lf %lf",&a,&b,&c);
+    pri=a+b+c;
+    tra=(.5*(a+b)*c);
+    if((a+b)>c && (a+c)>b && (b+c)>a)
+    {
+        printf("Perimetro = %.1lf\n",pri);
+    }
+    else
+        printf("Area = %.1lf\n",tra);
+    return 0;
+}
