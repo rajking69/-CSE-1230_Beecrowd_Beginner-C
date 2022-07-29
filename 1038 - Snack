@@ -1,0 +1,32 @@
+#include<stdio.h>
+
+int main()
+{
+    int pr,u;
+    float pri=0;
+    scanf("%d %d",&pr,&u);
+    if (pr==1)
+    {
+
+        pri= (float)(4.00*u);
+    }
+    else if (pr==2)
+    {
+        pri=(float)(4.50*u);
+    }
+    else if(pr==3)
+    {
+        pri=(float) (5.00*u);
+    }
+    else if(pr==4)
+    {
+        pri=(float)(2.00*u);
+    }
+    else if(pr==5)
+    {
+        pri=(float)(1.50*u);
+    }
+    printf("Total: R$ %.2f\n",pri);
+
+    return 0;
+}
