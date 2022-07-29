@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    int N,M,H,S,A;
+    scanf("%d",&N);
+    H=N/3600;
+    A=N%3600;
+    M=A/60;
+    S=A%60;
+    printf("%d:%d:%d\n",H,M,S);
+    return 0;
+}
