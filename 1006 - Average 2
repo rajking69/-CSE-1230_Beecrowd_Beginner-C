@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+
+{
+
+    float n1, n2,n3,avg;
+
+    scanf("%f %f %f", &n1,&n2,&n3);
+
+    avg = ((n1*2)+(n2*3)+(n3*5))/(2+3+5);
+
+           printf("MEDIA = %.1f\n", avg);
+
+           return 0;
+
+}
