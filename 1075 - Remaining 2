@@ -3,8 +3,8 @@ int main()
 {
     int n,i;
     scanf("%d",&n);
-    for(i=1; i<10000; i++)
-        if(i%n==2)
+    for(i=1; i<10000; i++)  //loop ta 10000 er agh porjonto cholbe.
+        if(i%n==2)          //i ke n number diye mod korle bhagshes 2 thakbe.
         {
             printf("%d\n",i);
         }
