@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+    int i,n,high=0,pos;
+    for(i=1; i<=100; i++) //loop ti 1 theke 100 porjonto cholbe
+    {
+        scanf("%d",&n);    //1 theke 100 porjonto input nibe.
+        if(n>high)         // purboborti number theke n boro kina jachai.....(1)
+
+        {
+            high=n;       //if (1) is true then new high number=n hobe
+            pos=i;        //pos=i
+        }
+    }
+    printf("%d\n%d\n",high,pos);
+    return 0;
+}
