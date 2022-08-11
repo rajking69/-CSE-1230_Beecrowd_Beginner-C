@@ -6,11 +6,17 @@ int main()
     a=min;
     b=mid;
     c=max;
-    if(a>b)
+    if(a>b) 
     {
         temp=a;
         a=b;
-        b=temp;
+        b=temp; 
+    }
+    if(a>c)
+    {
+        temp=a;
+        a=c;
+        c=temp;
     }
     if(b>c)
     {
@@ -18,12 +24,7 @@ int main()
         b=c;
         c=temp;
     }
-    if(a>b)
-    {
-        temp=a;
-        a=b;
-        b=temp;
-    }
+
     printf("%d\n%d\n%d\n\n",a,b,c);
     printf("%d\n%d\n%d\n",min,mid,max);
     return 0;
